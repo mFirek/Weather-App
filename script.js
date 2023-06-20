@@ -10,7 +10,6 @@ window.addEventListener('DOMContentLoaded', function() {
       weatherElements[currentIndex].classList.add('active');
     }
 
-    // Dodawanie klasy "hidden" do elementów pogodowych
     for (var i = 1; i < weatherElements.length; i++) {
       weatherElements[i].classList.add('hidden');
     }

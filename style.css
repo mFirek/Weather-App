@@ -24,7 +24,6 @@
   .hidden {
     display: none;
   }
-  
 
   .night_bg{
     background: #0F2129;
@@ -52,16 +51,48 @@
   background: -webkit-linear-gradient(#c2d5df, #9acfea); 
 }
 
-.degrees{
+  .degrees{
   position: absolute;
   z-index: 2;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 700;
   color: #fff;
   text-shadow: 0 0 10px rgba(0,0,0,0.5);
   text-align: center;
   line-height: 1;
 }
+  .degrees sup{
+  font-size: 40px;
+  vertical-align: top;
+}
+#night_bg .degrees {
+  top: 30%;
+  left: 60%;
+}
+
+#sunny_bg .degrees {
+  top: 70%;
+  left: 40%;
+}
+
+#cloudy_bg .degrees {
+  top: 40%;
+  left: 20%;
+}
+
+#rainy_bg .degrees {
+  top: 80%;
+  left: 80%;
+}
+
+#snowy_bg .degrees {
+  top: 60%;
+  left: 70%;
+}
+
+
+
+
