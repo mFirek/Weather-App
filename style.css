@@ -30,3 +30,17 @@ body {
   background: #e6b720;
   background: -webkit-linear-gradient(#dfdb20, #db7e13); 
 }
+
+.degrees{
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  text-align: center;
+  line-height: 1;
+}
