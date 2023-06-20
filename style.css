@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding-top: 20px;
   } 
+  
   .container{
     width: 100%;
     max-width: 350px;
@@ -19,11 +20,8 @@ body {
     z-index: 1;
     top: 0; left: 0; right: 0; bottom: 0;
   }
-  
+
   .night_bg{
     background: #0F2129;
     background: -webkit-linear-gradient(#0F2129, #47334A); 
-    background: -o-linear-gradient(#0F2129, #47334A); 
-    background: -moz-linear-gradient(#0F2129, #47334A); 
-    background: linear-gradient(#0F2129, #47334A);
   }
