@@ -1,20 +1,19 @@
 window.addEventListener('DOMContentLoaded', function() {
-    var sunnyBg = document.getElementById('sunny_bg');
-    var nightBg = document.getElementById('night_bg');
-    
-    sunnyBg.style.display = 'none';
-        
-    setInterval(function() {
-      if (nightBg.classList.contains('active')) {
-        nightBg.style.display = 'none';
-        sunnyBg.style.display = 'block'; 
-        nightBg.classList.remove('active');
-        sunnyBg.classList.add('active');
-      } else {
-        nightBg.style.display = 'block'; 
-        sunnyBg.style.display = 'none';
-        nightBg.classList.add('active');
-        sunnyBg.classList.remove('active');
-      }
-    }, 3000);
+    var weatherElements = document.querySelectorAll('.bg');
+    var currentIndex = 0;
+
+    function switchWeather() {
+      weatherElements[currentIndex].classList.remove('active');
+      weatherElements[currentIndex].classList.add('hidden');
+      currentIndex = (currentIndex + 1) % weatherElements.length;
+      weatherElements[currentIndex].classList.remove('hidden');
+      weatherElements[currentIndex].classList.add('active');
+    }
+
+    // Dodawanie klasy "hidden" do elementów pogodowych
+    for (var i = 1; i < weatherElements.length; i++) {
+      weatherElements[i].classList.add('hidden');
+    }
+
+    setInterval(switchWeather, 3000);
   });
