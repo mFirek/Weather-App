@@ -32,23 +32,24 @@
     
   }
   .sunny_bg{
-  background: #e6b720;
-  background: -webkit-linear-gradient(#dfdb20, #db7e13); 
+    background: #ffe066;
+    background: -webkit-linear-gradient(#ffe066, #ffcc00);
+    
 }
 
- .cloudy_bg{
-  background: #46a5ce;
-  background: -webkit-linear-gradient(#8b1b69, #3068e0); 
+  .cloudy_bg{
+  background: #a8b7c8;
+  background: -webkit-linear-gradient(#a8b7c8, #4f687f);   
 }
 
- .rainy_bg{
-  background: #46a5ce;
-  background: -webkit-linear-gradient(#27af76, #1849b3); 
+  .rainy_bg{
+  background: #7799dd;
+  background: -webkit-linear-gradient(#7799dd, #336699);  
 }
 
- .snowy_bg{
-  background: #46a5ce;
-  background: -webkit-linear-gradient(#365735, #41aeda); 
+  .snowy_bg{
+  background: #c2d5df;
+  background: -webkit-linear-gradient(#c2d5df, #9acfea); 
 }
 
 .degrees{
