@@ -24,4 +24,9 @@ body {
   .night_bg{
     background: #0F2129;
     background: -webkit-linear-gradient(#0F2129, #47334A); 
+    
   }
+  .sunny_bg{
+  background: #e6b720;
+  background: -webkit-linear-gradient(#dfdb20, #db7e13); 
+}
